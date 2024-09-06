@@ -12,4 +12,4 @@ no repeat -- define once use many times. or unmaintanable (there are exceptions)
 
 nav menu?
 
-toe te voegen: dark theme button, anti-autisten captia
+toe te voegen: dark theme button, anti-autisten captia, parallax, joink a theme (palette and font family)

@@ -1,3 +1,8 @@
-h1 {color:royalblue}
-article {font-size: 40px}
-nav {font-family:monospace}
+body {background-color: #1b1a1a; color: whitesmoke;}
+
+h1 {color: rgb(192, 231, 19); font-size: 40;}
+p {color: whitesmoke}
+
+article {font-size: 50p}
+
+nav {font-family: monospace}
