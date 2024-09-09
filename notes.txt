@@ -1,3 +1,9 @@
+NOTES
+images in seperate folder
+:) add global nav
+
+
+
 index file is the first file that gets loaded (on a site)
 
 add link: <a href="link">text</a> (a is for anchor)
@@ -6,10 +12,6 @@ add link: <a href="link">text</a> (a is for anchor)
 
 CSS syntax
 
-profile is shadertoy common tab?
-
 no repeat -- define once use many times. or unmaintanable (there are exceptions)
 
 nav menu?
-
-toe te voegen: dark theme button, anti-autisten captia, parallax, joink a theme (palette and font family)

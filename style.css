@@ -1,8 +1,18 @@
+/* colors */
 body {background-color: #1b1a1a; color: whitesmoke;}
 
-h1 {color: rgb(192, 231, 19); font-size: 40;}
-p {color: whitesmoke}
+h1 {color: rgb(192, 231, 19);}
+p {color: whitesmoke;}
 
-article {font-size: 50p}
+/*font*/
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1 {font-size: 40p;}
+article {font-size: 50p;}
 
-nav {font-family: monospace}
+/*alignment*/
+body {text-align: center;}
+p, table {
+    text-align: left;
+    margin: 0 auto;  /* Centers the page */
+    width: 80%;      /* Controls the width of the page text */
+}
