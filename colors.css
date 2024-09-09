@@ -1,0 +1,25 @@
+/* Color Theme Swatches in Hex */
+.color-theme_dofresh-jet-wip05-def-halfsize-1-hex { color: #A7CBD9; }
+.color-theme_dofresh-jet-wip05-def-halfsize-2-hex { color: #C9EBF2; }
+.color-theme_dofresh-jet-wip05-def-halfsize-3-hex { color: #F2AA52; }
+.color-theme_dofresh-jet-wip05-def-halfsize-4-hex { color: #F28444; }
+.color-theme_dofresh-jet-wip05-def-halfsize-5-hex { color: #D9674E; }
+
+/* Color Theme Swatches in Hex */
+.color-theme_calina-sparhawk-spacebedroom-1-hex { color: #212026; }
+.color-theme_calina-sparhawk-spacebedroom-2-hex { color: #2953A6; }
+.color-theme_calina-sparhawk-spacebedroom-3-hex { color: #4184BF; }
+.color-theme_calina-sparhawk-spacebedroom-4-hex { color: #5697BF; }
+.color-theme_calina-sparhawk-spacebedroom-5-hex { color: #4EB4BF; }
+
+.color-theme_huleeb-667-08-nov-2021-final-4-hex { color: #D94D1A; }
+.color-theme_huleeb-667-08-nov-2021-final-5-hex { color: #A6281C; }
+
+
+:root {
+    --background-color: #212026; /* Charcoal */
+    --text-color: #C9EBF2;       /* Pale Aqua */
+    --primary-color: #2953A6;    /* Deep Sky Blue */
+    --secondary-color: #F28444;  /* Burnt Orange */
+    --accent-color: #4EB4BF;     /* Turquoise */
+  }
