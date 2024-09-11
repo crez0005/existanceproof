@@ -1,23 +1,44 @@
 /*alignment*/
-body {text-align: center;}
+html, body {text-align: center;
+    height: 100%;
+    margin: 20px;}
 p, table {
     text-align: left;
     margin: 0 auto;  /* Centers the page */
-    width: 80%;      /* Controls the width of the page text */
+    width: 70%;      /* Controls the width of the page text */
 
     line-height: 1.5
 }
+nav {
+    text-align: right;
+    margin: 0 auto;  /* Centers the page */
+    width: 70%;      /* Controls the width of the page text */
+}
+body { /*via ChatGPT, needed to stick the footer to the bottom*/
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+}
 
-/*nav {text-align: left; margin: 0 auto; width: 80%;}*/
 
 /*font*/
-body {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
-/*article {font-size: 12px;}*/
-h1 {font-size: 40px;}
-p {font-size: 12px;}
+html {font-size: 20px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+body {font-size: 20px;}
+h1 {font-size: 80px;}
+
 
 /* colors */
 body {background-color: #1b1a1a; color: whitesmoke;}
+
+h1 {color: whitesmoke;}
+p {color: whitesmoke;}
+
+
+/*background image via ChatGPT*/
 body {
     background-image: url('images/banner.jpg'); /* Path to your image */
     background-size: cover; /* Scales the image to cover the entire element */
@@ -25,6 +46,3 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed
 }
-
-h1 {color: rgb(192, 231, 19);}
-p {color: whitesmoke;}

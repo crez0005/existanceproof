@@ -1,8 +1,12 @@
 NOTES
-images in seperate folder
+:) images in seperate folder
 :) add global nav
+profile p1's
 
 
+
+hou PPD bij
+Personal Professional Development
 
 index file is the first file that gets loaded (on a site)
 
