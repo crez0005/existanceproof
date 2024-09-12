@@ -64,13 +64,6 @@ nav a {
 
 }
 
-footer {
-    /* alignment */
-    text-align: center;
-    margin-top: auto;
-    padding: 20px;
-}
-
 a {
     /* style and colors*/
     color: #3498db;
@@ -82,6 +75,13 @@ a:hover {
     color: #F2AA52;
     filter: drop-shadow(0px 0px 5px #F28444);
     /*font-size: 20.3px;*/ /*might be nice but causes jank*/
+}
+
+footer {
+    /* alignment */
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
 }
 
 .active_element {
@@ -103,3 +103,19 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed
 }
+
+#hz-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    filter: none; /* Remove any shadow */
+
+    left: 50%;
+    transform: translateX(0%); /* via ChatGPT, Shifts the element back by half of its width */
+    width: 90%;      /* Controls the width of the page text */
+    position: fixed;
+  }
+  
+  #hz-logo:hover {
+    filter: none; /* Ensure no hover effect */
+  }
