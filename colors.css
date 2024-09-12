@@ -15,6 +15,12 @@
 .color-theme_huleeb-667-08-nov-2021-final-4-hex { color: #D94D1A; }
 .color-theme_huleeb-667-08-nov-2021-final-5-hex { color: #A6281C; }
 
+/* Color Theme Swatches in Hex */
+.color-theme_Clouds_brightened-1-hex { color: #3F6CA6; }
+.color-theme_Clouds_brightened-2-hex { color: #4478A6; }
+.color-theme_Clouds_brightened-3-hex { color: #5E9ABF; }
+.color-theme_Clouds_brightened-4-hex { color: #A4B5BF; }
+.color-theme_Clouds_brightened-5-hex { color: #DBE1E1; }
 
 :root {
     --background-color: #212026; /* Charcoal */

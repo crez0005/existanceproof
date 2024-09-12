@@ -1,46 +1,103 @@
-/*alignment*/
-html, body {text-align: center;
+html {
+    /* alignment */
+    text-align: center;
     height: 100%;
-    margin: 20px;}
-p, table {
-    text-align: left;
-    margin: 0 auto;  /* Centers the page */
-    width: 70%;      /* Controls the width of the page text */
+    margin: 20px;
+    /* font */
+    font-size: 20px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-    line-height: 1.5
-}
-nav {
-    text-align: right;
-    margin: 0 auto;  /* Centers the page */
-    width: 70%;      /* Controls the width of the page text */
-}
-body { /*via ChatGPT, needed to stick the footer to the bottom*/
+body {
+    /* alignment */
+    text-align: center;
+    height: 100%;
+    margin: 20px;
+    /*via ChatGPT, needed to stick the footer to the bottom*/
     display: flex;
     flex-direction: column;
+    /* font */
+    font-size: 20px;
+    /* style and colors*/
+    background-color: #1b1a1a; 
+    color: white;
 }
+
+h1 {
+    /* font */
+    font-size: 80px;
+    /* style and colors*/
+    color: white;
+    text-shadow: 0px 1px 60px rgba(0,0,0,0.2);
+}
+
+p, table {
+    /* alignment */
+    text-align: left;
+    line-height: 1.5;
+    width: 70%;      /* Controls the width of the page text */
+    margin: 0 auto;  /* Centers the page */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    /* style and colors */
+    border-radius: 20px;
+    color: white;
+    text-shadow: 0px 1px 60px rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav {
+    /* alignment */
+    text-align: center;
+    margin: 0 auto;  /* Centers the page */
+    left: 50%;
+    transform: translateX(-50%); /* via ChatGPT, Shifts the element back by half of its width */
+    width: 70%;      /* Controls the width of the page text */
+    position: fixed;
+
+}
+
+nav a {
+    /* style*/
+    text-decoration: none; /* Removes underline from all links */
+
+}
+
 footer {
+    /* alignment */
     text-align: center;
     margin-top: auto;
     padding: 20px;
 }
 
+a {
+    /* style and colors*/
+    color: #3498db;
+    filter: drop-shadow(0px 0px 10px black);
+}
 
-/*font*/
-html {font-size: 20px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
-body {font-size: 20px;}
-h1 {font-size: 80px;}
+a:hover {
+    /* style and colors*/
+    color: #F2AA52;
+    filter: drop-shadow(0px 0px 5px #F28444);
+    /*font-size: 20.3px;*/ /*might be nice but causes jank*/
+}
+
+.active_element {
+    /* style and colors*/
+    text-decoration: underline;
+    text-decoration-color: #F2AA52;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
 
 
-/* colors */
-body {background-color: #1b1a1a; color: whitesmoke;}
-
-h1 {color: whitesmoke;}
-p {color: whitesmoke;}
 
 
 /*background image via ChatGPT*/
 body {
-    background-image: url('images/banner.jpg'); /* Path to your image */
+    background-image: url('images/Clouds.JPG'); /* Path to your image */
     background-size: cover; /* Scales the image to cover the entire element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
