@@ -31,7 +31,7 @@ h1 {
     text-shadow: 0px 1px 60px rgba(0,0,0,0.2);
 }
 
-p, table {
+p, table,  details {
     /* alignment */
     text-align: left;
     line-height: 1.5;
