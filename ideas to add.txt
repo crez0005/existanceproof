@@ -17,6 +17,8 @@ Theme:
   (skeuomorphism, neuomorphism), 
   aerox
 
+ cards slide horizontally into view upon scrolling to them
+
 - Fun:
 dark mode toggle button, 
 anti-autisten captia, 
