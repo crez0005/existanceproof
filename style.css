@@ -43,10 +43,6 @@ p, table,  details {
     /* style and colors */
     border-radius: 20px;
     color: white;
-    text-shadow: 0px 1px 60px rgba(0,0,0,0.2);
-    background-color: rgba(0,0,0,0.4);
-    backdrop-filter: blur(10px) saturate(120%); /* Blurs and slightly saturates */
-    -webkit-backdrop-filter: blur(10px) saturate(120%); /* Safari support */
 }
 
 .dark-glass {
@@ -69,9 +65,12 @@ p, table,  details {
 
 tr {
     background-color: rgba(0,0,0,0.3);
+    
 }
 td {
     padding: 10px;
+    backdrop-filter: blur(10px) saturate(120%); /* Blurs and slightly saturates */
+    -webkit-backdrop-filter: blur(10px) saturate(120%); /* Safari support */
 }
 
 nav {
@@ -149,10 +148,10 @@ aside ul {
     gap: 20px; /* Adjust space between items */
   }
   
-.blog-grid p {
+.blog-grid div {
     flex: 1 1 200px; /* Adjusts the width of the columns */
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
 }
   
